@@ -1,18 +1,5 @@
-/lcio/fileExists delete
-
-/random/setSeeds 1234 56789
-
-#/slic/plugins/load TrackAnalPlugin
-
 /generator/select gps
 /gps/particle e-
 /gps/energy 2.3 GeV
 /gps/direction 0 0 1
 /gps/position 5.0 30.0 0 mm
-
-#/run/beamOn 20000
-#/run/beamOn 10000
-#/run/beamOn 10000
-#/run/beamOn 100000
-/run/beamOn 10000
-#/run/beamOn 1

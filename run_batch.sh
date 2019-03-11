@@ -1,7 +1,7 @@
 #!/bin/bash
 (
 
-# ROOT has to be setup externally because LD_LIBRARY_PATH cannot be modified from within Python.
+# ROOT has to be setup because LD_LIBRARY_PATH cannot be modified in Python.
 . /sw/root/install/bin/thisroot.sh
 
 # Setup path for hps python tools.

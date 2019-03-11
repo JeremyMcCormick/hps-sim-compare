@@ -1,26 +1,5 @@
-/lcdd/url HPS-EngRun2015-Nominal-v3-5-3-fieldmap.lcdd
-
-/hps/physics/list QGSP_BERT
-
-/run/initialize
-
 /hps/generators/create gps GPS
-
-/hps/plugins/load EventPrintPlugin
-/hps/plugins/EventPrintPlugin/modulus 10
-
-/random/setSeeds 1234 56789
-
-/hps/lcio/file simEvents.slcio
-/hps/lcio/recreate
-
 /gps/particle e-
 /gps/energy 2.3 GeV
 /gps/direction 0 0 1
 /gps/position 5.0 30.0 0 mm
-#/run/beamOn 20000
-#/run/beamOn 100
-#/run/beamOn 100000
-#/run/beamOn 10
-/run/beamOn 10000
-#/run/beamOn 1
